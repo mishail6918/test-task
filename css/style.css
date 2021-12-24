@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.checklist__list .list__item .item__name h1 {
+    font-size: 25px;
+}
+.checklist__list .list__item .item__name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.checklist__list .list__item {
+    background: #d9d7d7;
+    margin: 5px 0px;
+    padding: 10px;
+}
+.checklist__list .list__item .item__name .item__left{
+    display: flex;
+    align-items: center;
+}
+.item__open {
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 5px;
+}
+.item__open:hover {
+    background: #afafaf;
+    border-radius: 15px;
+}
+.item__dropdown {
+    display: none;
+}
+.dropdown__show {
+    display: block;
+}
